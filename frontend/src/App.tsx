@@ -110,8 +110,8 @@ function App() {
                 <ul className="space-y-2 text-gray-400">
                   <li>211, Vardaan House</li>
                   <li>7/28, Ansari Road, Daryaganj</li>
-                  <li>New Delhi, India - 110006</li>
-                  <li>Phone: +91 93103 58386</li>
+                  <li>New Delhi, India - 110002</li>
+                  <li>Phone: +1 9094574762</li>
                   <li>Email: info@aaagloballogistics.com</li>
                 </ul>
               </div>
