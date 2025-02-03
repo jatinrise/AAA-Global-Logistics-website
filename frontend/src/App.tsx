@@ -6,7 +6,7 @@ import Services from './pages/Services';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Tracking from './pages/Tracking';
-import logo from "../images/logo.jpg";
+import logo from "../images/logo4.png";
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
