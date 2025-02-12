@@ -6,7 +6,7 @@ import Services from './pages/Services';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Tracking from './pages/Tracking';
-import logo from "../images/logo4.png";
+import logo from "../images/logo6.png";
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -22,7 +22,7 @@ function App() {
                   <img 
                     src={logo} 
                     alt="AAA Global Logistics" 
-                    className="h-8 w-auto sm:h-10"
+                    className="h-12 w-auto sm:h-24"
                   />
                 </Link>
               </div>
@@ -78,11 +78,11 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div>
-                <div className="mb-4">
+                <div className="mb-4 flex items-center justify-center ">
                   <img 
                     src={logo} 
                     alt="AAA Global Logistics" 
-                    className="h-10 w-auto"
+                    className="h-24 w-auto"
                   />
                 </div>
                 <p className="text-gray-400">Your trusted logistics partner for global transportation solutions.</p>

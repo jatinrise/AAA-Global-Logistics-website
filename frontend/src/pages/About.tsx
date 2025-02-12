@@ -1,14 +1,9 @@
-import { Award, Users, Globe, Truck, BarChart, Clock, Shield, Target, BarChart as ChartBar, Heart, Zap, Coffee } from 'lucide-react';
+import { Award, Users, Globe, Truck, BarChart, Clock, Shield, Target, BarChart as ChartBar, Heart, Zap, Coffee, User2Icon } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function About() {
   const milestones = [
-    { year: 2010, title: "Company Founded", description: "Started with a vision to revolutionize logistics" },
-    { year: 2013, title: "International Expansion", description: "Expanded operations to 10 countries" },
-    { year: 2015, title: "Digital Transformation", description: "Launched innovative tracking platform" },
-    { year: 2018, title: "Sustainability Initiative", description: "Implemented eco-friendly practices" },
-    { year: 2020, title: "Global Recognition", description: "Awarded for excellence in logistics" },
-    { year: 2023, title: "Market Leader", description: "Became industry leader in 50+ countries" }
+    { year: 2025, title: "Company Founded", description: "Started with a vision to revolutionize logistics" }
   ];
 
   const coreValues = [
@@ -22,28 +17,22 @@ export default function About() {
 
   const teamMembers = [
     {
-      name: "John Smith",
-      role: "CEO",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-      bio: "25+ years of logistics experience"
+      name: "Akshay Dhingra",
+      role: "CO Founder",
+      image: "",
+      bio: ""
     },
     {
-      name: "Sarah Johnson",
-      role: "COO",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
-      bio: "Expert in operations optimization"
+      name: "Ankush Dhingra",
+      role: "CO Founder",
+      image: "",
+      bio: ""
     },
     {
-      name: "Michael Chen",
-      role: "CTO",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-      bio: "Leading digital transformation"
-    },
-    {
-      name: "Emily Brown",
-      role: "Global Operations Director",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
-      bio: "International logistics expert"
+      name: "Navjeet Kaur Luthra",
+      role: "CO Founder",
+      image: "",
+      bio: ""
     }
   ];
 
@@ -63,7 +52,7 @@ export default function About() {
           <div className="text-center">
             <h1 className="text-4xl font-bold mb-6">Our Story</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Since 2010, TransportPro has been revolutionizing the logistics industry with innovative solutions and unwavering commitment to excellence.
+              Since 2025, AAA Global logistics has been revolutionizing the logistics industry with innovative solutions and unwavering commitment to excellence.
             </p>
           </div>
         </div>
@@ -90,7 +79,7 @@ export default function About() {
       </section>
 
       {/* Company Stats */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -101,7 +90,7 @@ export default function About() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Core Values */}
       <section className="py-20">
@@ -164,11 +153,11 @@ export default function About() {
               Meet the experts driving our success
             </p>
           </div>
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {teamMembers.map((member, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden transform hover:-translate-y-1 transition duration-300">
-                <img
-                  src={member.image}
+               <img
+                  src={member.image || "../../images/profile.png"}
                   alt={member.name}
                   className="w-full h-64 object-cover"
                 />
@@ -184,7 +173,7 @@ export default function About() {
       </section>
 
       {/* Certifications */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Our Certifications</h2>
@@ -215,7 +204,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-blue-600 text-white">
